@@ -34,8 +34,6 @@ class _StreamBuilderPageState extends State<StreamBuilderPage> {
     streamController2.sink.add(1);
   }
 
-  
-
   @override
   void dispose() {
     streamController.close();
